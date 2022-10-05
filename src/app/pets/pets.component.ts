@@ -12,4 +12,6 @@ export class PetsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  img: string = 'https://thecatapi.com/api/images/get?format=src&type=gif';
+
 }
